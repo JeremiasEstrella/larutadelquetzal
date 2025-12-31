@@ -10,6 +10,17 @@
     align-items: center;
   }
 
+  svg {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .primerheader {
+    flex-wrap: wrap;
+  }
   .cont_padre1 {
     width: 100%;
   }
@@ -21,6 +32,7 @@
     gap: 10px;
     width: 100%;
   }
+
   nav a {
     padding: 10px;
     border: 0;
@@ -40,6 +52,10 @@
     display: none;
   }
 
+  .cont_filtro_letra2 p {
+    font-size: 8px;
+  }
+
   .contlogo {
     width: 100%;
     background-color: white;
@@ -52,18 +68,16 @@
   }
   .flexs {
     margin-top: 10px;
-    max-width: 430px;
     width: 100%;
     flex-direction: column;
   }
   .conticon {
     width: 100%;
+    height: auto;
     background-color: var(--azul);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 10px;
-    padding: 10px;
   }
   .conticon p {
     color: white;
@@ -95,11 +109,6 @@
     background-color: var(--azul);
   }
 
-  .c1 {
-    flex-direction: column;
-    gap: 10px;
-  }
-
   ul.tabs {
     width: 100%;
     display: flex;
@@ -111,6 +120,17 @@
   }
   .tabs i {
     margin: 10px;
+  }
+
+  #carousel {
+    flex-wrap: wrap;
+  }
+  .slide {
+    width: 150px;
+    height: 300px;
+  }
+  .indicators {
+    width: 100px;
   }
 
   #tab1 figure {
@@ -152,22 +172,38 @@
     flex-direction: column;
   }
 
+  .cont3_icons {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .cont_filtro_letras {
+    width: 80%;
+    height: auto;
+  }
   .cont3_icons div {
     width: 100px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    border: 1px black solid;
+    flex-wrap: wrap;
     margin: auto;
   }
 
   div.cont3_icons i {
-    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+  }
+
+  .cont3 {
+    flex-direction: column;
+    width: 100%;
   }
 }
